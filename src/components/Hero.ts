@@ -7,11 +7,13 @@ export function renderHero(): string {
       <div class="rel hero-content">
         <div class="hero-left">
           <div class="hero-tags">
-            <span class="hero-tag">AWS</span>
+            <span class="hero-tag">TypeScript</span>
+            <span class="hero-tag">Hono</span>
             <span class="hero-tag">Docker</span>
-            <span class="hero-tag">CI/CD</span>
-            <span class="hero-tag">PHP · Node.js</span>
-            <span class="hero-tag">Curitiba — BR</span>
+            <span class="hero-tag">GitHub</span>
+            <span class="hero-tag">AWS/VPS</span>
+            <span class="hero-tag">Databases</span>
+            <span class="hero-tag">Drizzle</span>
           </div>
           <h1>Sistemas que funcionam<br>em <em>produção.</em></h1>
           <p class="hero-sub">Você me passa o problema. Eu entrego funcionando — do primeiro commit à URL no ar.</p>

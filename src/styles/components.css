@@ -536,8 +536,8 @@
   gap: 8px;
   font-family: var(--font-mono);
   font-size: 10px;
-  color: var(--text-dim);
-  border: 1px solid rgba(139, 92, 246, 0.15);
+  color: #9ca3af;
+  border: 1px solid #374151;
   border-radius: 4px;
   padding: 6px 12px;
   background: rgba(139, 92, 246, 0.03);
@@ -547,7 +547,7 @@
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: var(--green);
+  background: #10b981;
   flex-shrink: 0;
 }
 

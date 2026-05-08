@@ -9,6 +9,7 @@ export interface Project {
   code: string
   status: ProjectStatus
   anchor?: boolean
+  repo?: string
 }
 
 export const projects: Project[] = [
@@ -21,6 +22,7 @@ export const projects: Project[] = [
     code: `<div><span class="t-k">const</span><span class="t-w"> stack </span><span class="t-k">=</span><span class="t-w"> {</span></div><div>&nbsp;&nbsp;<span class="t-k">infra</span><span class="t-w">: </span><span class="t-s">"AWS"</span><span class="t-w">,</span></div><div>&nbsp;&nbsp;<span class="t-k">db</span><span class="t-w">: </span><span class="t-s">"RDS"</span><span class="t-w">,</span></div><div>&nbsp;&nbsp;<span class="t-k">rt</span><span class="t-w">: </span><span class="t-s">"Socket.io"</span><span class="t-w">,</span></div><div>&nbsp;&nbsp;<span class="t-k">wa</span><span class="t-w">: </span><span class="t-s">"Evolution"</span><span class="t-w">,</span></div><div>&nbsp;&nbsp;<span class="t-k">ci</span><span class="t-w">: </span><span class="t-s">"Actions"</span><span class="t-w">,</span></div><div>&nbsp;&nbsp;<span class="t-k">prod</span><span class="t-w">: </span><span class="t-o">true</span></div><div><span class="t-w">}</span></div>`,
     status: 'production',
     anchor: true,
+    repo: 'https://github.com/matheuslyam/crm',
   },
   {
     num: '02',
@@ -30,6 +32,7 @@ export const projects: Project[] = [
     stack: ['TypeScript 5.9', 'Next.js 16', 'React 19', 'Zod', 'Asaas API', 'Docker multi-stage', 'Vitest'],
     code: `<div><span class="t-k">import</span><span class="t-w"> { </span><span class="t-b">pix</span><span class="t-w">, </span><span class="t-b">card</span><span class="t-w">, </span><span class="t-b">hybrid</span><span class="t-w"> }</span></div><div><span class="t-w">&nbsp;&nbsp;</span><span class="t-k">from</span><span class="t-w"> </span><span class="t-s">"asaas"</span></div><div>&nbsp;</div><div><span class="t-c">// tested in prod ✓</span></div>`,
     status: 'production',
+    repo: 'https://github.com/matheuslyam/checkout',
   },
   {
     num: '03',
@@ -39,6 +42,7 @@ export const projects: Project[] = [
     stack: ['TypeScript', 'Next.js 16', 'React 19', 'Supabase', 'Framer Motion', 'Docker multi-stage'],
     code: `<div><span class="t-k">if</span><span class="t-w"> (score >= </span><span class="t-o">80</span><span class="t-w">)</span></div><div>&nbsp;&nbsp;<span class="t-b">route</span><span class="t-w">(</span><span class="t-s">"vendedor"</span><span class="t-w">)</span></div><div><span class="t-k">else if</span><span class="t-w"> (score >= </span><span class="t-o">50</span><span class="t-w">)</span></div><div>&nbsp;&nbsp;<span class="t-b">route</span><span class="t-w">(</span><span class="t-s">"instagram"</span><span class="t-w">)</span></div><div><span class="t-k">else</span><span class="t-w"> </span><span class="t-b">capture</span><span class="t-w">(</span><span class="t-s">"cold"</span><span class="t-w">)</span></div>`,
     status: 'production',
+    repo: 'https://github.com/matheuslyam/quizz',
   },
   {
     num: '04',
@@ -48,5 +52,6 @@ export const projects: Project[] = [
     stack: ['Python 3.10', 'Streamlit', 'Pandas · Plotly', 'Meta Ads SDK', 'Docker', 'SQLAlchemy'],
     code: `<div><span class="t-k">import</span><span class="t-w"> </span><span class="t-b">facebook</span></div><div><span class="t-k">import</span><span class="t-w"> </span><span class="t-b">streamlit</span></div><div><span class="t-k">import</span><span class="t-w"> </span><span class="t-b">plotly</span></div><div>&nbsp;</div><div><span class="t-c"># sem planilha</span></div><div><span class="t-c"># automático ✓</span></div>`,
     status: 'wip',
+    repo: 'https://github.com/matheuslyam/pyvip',
   },
 ]

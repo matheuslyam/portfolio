@@ -438,6 +438,22 @@
   background: rgba(139, 92, 246, 0.04);
 }
 
+.case-repo-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 10px;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  color: var(--text-dim);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.case-repo-link:hover {
+  color: var(--text-muted);
+}
+
 .case-code {
   padding: 20px;
   border-left: 1px solid var(--border);

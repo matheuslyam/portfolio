@@ -67,6 +67,7 @@ export function renderSobre(): string {
               <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="t-s">"Quiz"</span><span class="t-w">,</span></div>
               <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="t-s">"Dashboard"</span></div>
               <div>&nbsp;&nbsp;<span class="t-w">],</span></div>
+              <div>&nbsp;&nbsp;<span class="t-b">"learning"</span><span class="t-w">: [</span><span class="t-s">"Data Structures &amp; Algorithms"</span><span class="t-w">],</span></div>
               <div>&nbsp;&nbsp;<span class="t-b">"mei"</span><span class="t-w">: </span><span class="t-o">true</span><span class="t-w">,</span></div>
               <div>&nbsp;&nbsp;<span class="t-b">"available"</span><span class="t-w">: </span><span class="t-o">true</span></div>
               <div><span class="t-w">}</span></div>

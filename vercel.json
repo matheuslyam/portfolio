@@ -1,5 +1,13 @@
 {
   "buildCommand": "bun run build",
   "outputDirectory": "dist",
-  "framework": null
+  "framework": null,
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://lyam.dev.br/$1",
+      "permanent": true,
+      "has": [{ "type": "host", "value": "portfolio-nine-phi-pa4vx3qgn1.vercel.app" }]
+    }
+  ]
 }

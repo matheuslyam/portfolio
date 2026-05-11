@@ -26,12 +26,12 @@ export function renderContato(): string {
           </a>
           <a
             class="contact-card"
-            href="mailto:matheuslyambusiness@gmail.com"
+            href="mailto:contato@lyam.dev.br"
           >
             <span class="contact-icon">✉</span>
             <div class="contact-info">
               <div class="contact-type">e-mail</div>
-              <div class="contact-value">matheuslyambusiness@gmail.com</div>
+              <div class="contact-value">contato@lyam.dev.br</div>
             </div>
             <span class="badge badge-alt">alternativo</span>
           </a>

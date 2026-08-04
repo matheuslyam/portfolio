@@ -51,7 +51,7 @@ export function renderHero(): string {
             <div><span class="t-k">const</span><span class="t-w"> lyam </span><span class="t-k">=</span><span class="t-w"> {</span></div>
             <div>&nbsp;&nbsp;<span class="t-b">infra</span><span class="t-w">: </span><span class="t-s">"AWS"</span><span class="t-w">,</span></div>
             <div>&nbsp;&nbsp;<span class="t-b">cicd</span><span class="t-w">: </span><span class="t-s">"Actions"</span><span class="t-w">,</span></div>
-            <div>&nbsp;&nbsp;<span class="t-b">backend</span><span class="t-w">: </span><span class="t-s">"PHP/Node"</span><span class="t-w">,</span></div>
+            <div>&nbsp;&nbsp;<span class="t-b">backend</span><span class="t-w">: </span><span class="t-s">"TypeScript/Node"</span><span class="t-w">,</span></div>
             <div>&nbsp;&nbsp;<span class="t-b">containers</span><span class="t-w">: </span><span class="t-s">"Docker"</span><span class="t-w">,</span></div>
             <div>&nbsp;&nbsp;<span class="t-b">city</span><span class="t-w">: </span><span class="t-s">"Curitiba"</span><span class="t-w">,</span></div>
             <div>&nbsp;&nbsp;<span class="t-b">available</span><span class="t-w">: </span><span class="t-o">true</span></div>

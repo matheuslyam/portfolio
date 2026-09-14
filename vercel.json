@@ -15,6 +15,11 @@
   "framework": null,
   "redirects": [
     {
+      "source": "/the-knight-game",
+      "destination": "/the-knight-game/",
+      "permanent": true
+    },
+    {
       "source": "/(.*)",
       "destination": "https://lyam.dev.br/$1",
       "permanent": true,

@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/the-knight-game",
-      "destination": "https://the-knight-game.vercel.app/"
+      "destination": "https://knightgame-nine.vercel.app/"
     },
     {
       "source": "/the-knight-game/:path*",
-      "destination": "https://the-knight-game.vercel.app/:path*"
+      "destination": "https://knightgame-nine.vercel.app/:path*"
     }
   ],
 

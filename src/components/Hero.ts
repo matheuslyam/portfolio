@@ -8,12 +8,12 @@ export function renderHero(): string {
         <div class="hero-left">
           <div class="hero-tags">
             <span class="hero-tag">TypeScript</span>
-            <span class="hero-tag">Hono</span>
+            <span class="hero-tag">Express</span>
             <span class="hero-tag">Docker</span>
             <span class="hero-tag">GitHub</span>
             <span class="hero-tag">AWS/VPS</span>
-            <span class="hero-tag">Databases</span>
-            <span class="hero-tag">Drizzle</span>
+            <span class="hero-tag">PostgreSQL</span>
+            <span class="hero-tag">Drizzle ORM</span>
           </div>
           <h1>Sistemas que funcionam<br>em <em>produção.</em></h1>
           <p class="hero-sub">Você me passa o problema. Eu entrego funcionando — do primeiro commit à URL no ar.</p>

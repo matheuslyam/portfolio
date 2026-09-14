@@ -1,4 +1,15 @@
 {
+  "rewrites": [
+    {
+      "source": "/the-knight-game",
+      "destination": "https://the-knight-game.vercel.app/"
+    },
+    {
+      "source": "/the-knight-game/:path*",
+      "destination": "https://the-knight-game.vercel.app/:path*"
+    }
+  ],
+
   "buildCommand": "bun run build",
   "outputDirectory": "dist",
   "framework": null,
